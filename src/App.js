@@ -2,6 +2,7 @@ import * as React from 'react';
 import Courses from './components/Courses';
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
+import './App.css';
 
 const client = new ApolloClient({
   uri: "https://vm8mjvrnv3.lp.gql.zone/graphql"
